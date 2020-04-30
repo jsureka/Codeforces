@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int x=0,i,n,bit[3];
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+        gets(bit);
+        if(bit[0]='+')
+            x=x+1;
+        else
+            x=x-1;
+    }
+    printf("%d",x);
+
+}
